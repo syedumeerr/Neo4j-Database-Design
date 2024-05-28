@@ -45,5 +45,5 @@ SET p.name = row.Player,
     p.caps = toInteger(row.Caps),
     p.internationalGoals = toInteger(row.`International goals`),
     p.playsInHomeCountry = row.`Plays in home country?`;
-
+```
 This README provides a comprehensive guide to setting up the Neo4j database and running the provided Cypher code, focusing on loading data and executing queries without including the actual Cypher code from the file.
